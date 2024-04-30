@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Rajdhani:wght@300&display=swap');
+  
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+/* header nav{
+    position: sticky;
+    top: 0;
+} */
+.navbar{
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+}
+
+
+.navbar ul li a{
+    color: black;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.navbar ul li a:hover{
+    color: orangered;
+}
+.card{
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)),url(images/banner-3.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+.container h1{
+    position: absolute;
+    display: block;
+    justify-content: flex-start;
+    align-items: start;
+    top: 50%;
+    font-size: 45px;
+    font-style: italic;
+    margin: auto;
+    rotate: -8deg;
+    letter-spacing: 5px;
+    /* background-color:yellowgreen; */
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+section{
+    position: relative;
+    top: 100%;
+    
+    justify-content: center;
+    text-align: center;
+}
+#banner{
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    box-shadow: 0 0 0 ;
+}
+section .container .row h1{
+    rotate: 0deg;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+section img:hover{
+    scale: 1.1;
+}
+section .container .logo:hover{
+    scale: 1;
+}
+section .container .social-icons a{
+    color: black;
+    padding-right: 5px;
+}
+.contact-info{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 3rem;
+    
+}
+.news{
+    background-color: black;
+    color: #fff;
+}
+.news .row h1{
+    color: #fff;
+}
+.container .row .footer .contact-info{
+    background-color: black;
+    color: #fff;
+}
+.name{
+    padding: 10px;
+}
+
+.news .container .row .name span{
+    color: red;
+}
+.news .container .row .footer{
+    cursor: pointer;
+}
+.news .container .row .footer p:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .container h1{
+        font-size: 30px;
+        padding-left: 5%;
+        z-index: -1;
+    }
+    ul li {
+        margin-top: 20px;
+    }
+    .container .row .footer .contact-info{
+        font-size: 12px;
+    }
+    section img:hover{
+        scale: 1;
+    }
+}
+
+
+
+
+
+
+
